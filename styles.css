@@ -1,0 +1,21 @@
+body {
+	background: pink;
+	font-family: Arial, Helvetic, sans-serif
+}
+
+.assignment {
+	background:red;
+	padding: 10px;
+	margin: 10px;
+	background: lightgray;
+}
+
+.assignment img {
+	width:200 px;
+	padding: 10px;
+}
+
+h1 {
+	color: darkorchid:
+	text-align: center;
+}
