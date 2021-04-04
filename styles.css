@@ -2,9 +2,13 @@ body {
 	background: pink;
 	font-family: Arial, Helvetic, sans-serif
 }
+.assignments{
+	display: flex;
+	flex-wrap:wrap;
+}
 
 .assignment {
-	display: flex;
+	width:30%;
 	background:red;
 	padding: 10px;
 	margin: 10px;
@@ -15,8 +19,10 @@ body {
 .assignment img {
 	width: 200px;
 	margin: 10px;
-	padding: 10px;
+	padding: 20px 10px;
 	border:2px solid
+	display:block;
+	margin:auto;
 }
 
 .assignment img:hover {
@@ -24,13 +30,16 @@ body {
 	margin: 10px;
 	padding: 10px;
 	border:2px dashed #FFF
-
 }
 
 
 h1 {
 	color: darkorchid:
 	text-align: center;
+}
+
+h2 {
+	text-align:center;
 }
 
 a {
